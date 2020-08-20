@@ -52,7 +52,6 @@ header {
 .scrolled {
   background-color: #333 !important;
   transition: background-color 200ms linear;
-  margin-bottom: 140px;
 }
 
 .navbar-brand {
