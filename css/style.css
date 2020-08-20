@@ -104,6 +104,10 @@ header {
   border-color: rgb(223, 123, 166);
 }
 
+#call-to-action {
+  margin-left: 5px;
+}
+
 .jumbotron {
   background: linear-gradient(to top, rgb(223, 123, 166), #9f6997);
   margin-bottom: 0;
@@ -155,14 +159,20 @@ header {
   text-transform: uppercase;
 }
 
-.card-icon i {
+.card-icon {
   font-size: 3rem;
   color: rgb(223, 123, 166);
+  margin-right: 0.5rem;
 }
 
 .card-body p {
   font-weight: 800;
   font-size: 0.8rem;
+}
+
+.card-title {
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 #card-section {
@@ -383,6 +393,10 @@ footer a {
   color: #9f6997;
 }
 
+#footer-links a i {
+  margin: 0 20px;
+}
+
 #footer-links li a:hover {
   text-decoration: none;
   color: #eee;
@@ -417,8 +431,8 @@ footer i {
   }
 
   #pool-text {
-    width: 100%;
-    top: 5%;
+    width: 80%;
+    top: 3%;
   }
 
   #logo {
@@ -445,6 +459,10 @@ footer i {
     font-size: 1.2rem;
     width: 100%;
     top: 50%;
+  }
+
+  #call-to-action {
+    margin-top: 10px;
   }
 }
 
