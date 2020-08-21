@@ -399,7 +399,7 @@ small {
 
 #footer {
   margin-top: 2rem;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   background-color: #333;
   height: auto;
   color: #eee;
@@ -469,13 +469,12 @@ footer i {
     width: 30px;
   }
 
-  #nav-align {
-    display: flex;
-    flex-direction: row;
+  .navbar-brand {
+    font-size: 0.5rem;
   }
 
-  .navbar-brand {
-    font-size: 1rem;
+  #nav-align {
+    display: inline;
   }
 
   #hero-text h1 {
@@ -499,6 +498,10 @@ footer i {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #nav-align {
+    display: inline;
+  }
+
   #hero-text h1 {
     width: 100%;
     font-size: 3rem;
