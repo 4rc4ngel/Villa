@@ -85,12 +85,25 @@ header {
   color: #fff;
 }
 
-#hero-text h3 {
+#hero-bold {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#hero-text div {
   color: #fff;
   position: absolute;
   top: 80%;
   padding: 1rem;
   background-color: rgba(223, 123, 166, 0.65);
+}
+
+#hero-text div p {
+  margin-bottom: 0;
+}
+
+small {
+  font-size: 0.8rem;
 }
 
 .btn-outline-secondary {
@@ -133,7 +146,7 @@ header {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  height: 40rem;
+  height: 50rem;
 }
 
 #pool-text {
@@ -155,7 +168,7 @@ header {
 #accom-title {
   font-weight: 900;
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 3rem 0;
   text-transform: uppercase;
 }
 
@@ -175,9 +188,8 @@ header {
   text-transform: uppercase;
 }
 
-#card-section {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+.card-img {
+  height: 250px;
 }
 
 /* Testimonials */
@@ -368,6 +380,21 @@ header {
   background-color: #9b9797;
 }
 
+#enquire-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#enquire-btn a {
+  color: #333;
+}
+
+#enquire-btn a:hover {
+  text-decoration: none;
+}
+
 /* Footer */
 
 #footer {
@@ -433,7 +460,7 @@ footer i {
   #pool-text {
     font-size: 1rem;
     width: 80%;
-    top: 3%;
+    top: 15%;
   }
 
   #logo {
@@ -453,6 +480,10 @@ footer i {
 
   #hero-text h1 {
     display: none;
+  }
+
+  #hero-text div {
+    top: 50%;
   }
 
   #hero-text h3 {
