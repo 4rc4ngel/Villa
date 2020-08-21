@@ -470,11 +470,7 @@ footer i {
   }
 
   .navbar-brand {
-    font-size: 0.5rem;
-  }
-
-  #nav-align {
-    display: inline;
+    font-size: 1rem;
   }
 
   #hero-text h1 {
@@ -498,10 +494,6 @@ footer i {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  #nav-align {
-    display: inline;
-  }
-
   #hero-text h1 {
     width: 100%;
     font-size: 3rem;
