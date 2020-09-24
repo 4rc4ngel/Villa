@@ -466,8 +466,8 @@ footer i {
 
   #pool-text {
     font-size: 1rem;
-    width: 80%;
-    top: 15%;
+    width: 70%;
+    top: 5%;
   }
 
   #logo {
@@ -500,7 +500,7 @@ footer i {
   }
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (min-device-width: 767px) {
   #hero-text h1 {
     width: 100%;
     font-size: 3rem;
@@ -512,14 +512,4 @@ footer i {
     width: 70%;
     top: 25%;
   }
-
-  /* .carousel-multi-item-2 .col-md-3 {
-    float: left;
-    width: 25%;
-    max-width: 100%;
-  }
-
-  .carousel-multi-item-2 .card img {
-    border-radius: 2px;
-  } */
 }
