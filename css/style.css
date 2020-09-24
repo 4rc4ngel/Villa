@@ -213,6 +213,13 @@ small {
   color: #fff;
 }
 
+/* Gallery */
+
+.carousel-multi-item-2 .card img {
+  border-radius: 2px;
+  height: 200px;
+}
+
 /* Availability */
 
 .calander-container {
@@ -493,7 +500,7 @@ footer i {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 768px) {
   #hero-text h1 {
     width: 100%;
     font-size: 3rem;
@@ -502,7 +509,17 @@ footer i {
   }
 
   #pool-text {
-    width: 100%;
+    width: 70%;
     top: 25%;
+  }
+
+  .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%;
+  }
+
+  .carousel-multi-item-2 .card img {
+    border-radius: 2px;
   }
 }
